@@ -1,0 +1,59 @@
+﻿body {
+    font-family: 'Open Sans', sans-serif; /* font tipi */
+    font-size: 20px; /* font büyüklüğü */
+    font-weight:bold;
+    background-image: url(/Content/img/background.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;  
+    overflow-y: scroll; /* kaydırma çubuğu her zaman görünür olsun */
+    cursor: default; /* fare imleci her zaman varsayılan şekilde görünsün */
+    color: #f0b406; /* metin rengi */
+    text-align: justify;
+
+}
+
+#container {
+    width: 928px; /* genişlik */
+    padding: 13px 16px; /* yukarı - aşağı 13px ; sağa - sola 16px */
+    position: relative;
+    margin: auto; /* position: relative ve margin: auto kombinasyonu ile bu nesneyi sayfamızda yatayda ortaladık */
+    margin-top: 13px; /* yukarı boşluk */
+    border-radius: 0 26px; /* kenarlık yumuşatması */
+    height:580px;
+    opacity:unset;
+    
+}
+#giris {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+    position: relative;
+    margin: auto;
+    padding-top:250px;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    padding: 5px;
+    text-align: center;
+}
+.buton {
+    background-color:#f0b406;
+    color:#292929;
+    font-weight:bold;
+    font-size: 20px;
+    border-radius:50px;
+    text-align: center;
+}
+
+#aracekle {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+    position: relative;
+    margin: auto;
+    padding-top: 60px !important;
+}
+
